@@ -46,7 +46,7 @@ window.resizable(False, False)
 
 #creatinng the background image
 #backgroound image source: https://wallsheaven.co.uk/photos/pastel-weather
-background_image = Image.open("/Users/saidlfagrouche/Downloads/360_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg")
+background_image = Image.open("background.jpg")
 background_image = background_image.resize((window_width, window_height), Image.LANCZOS)
 background_photo = ImageTk.PhotoImage(background_image)
 background_label = tk.Label(window, image=background_photo)
