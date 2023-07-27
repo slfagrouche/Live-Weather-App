@@ -6,7 +6,7 @@ from PIL Wimport ImageTk, Image
 def get_weather():
     city = city_entry.get()
     # Unique public OpenWeatherMap API key from: https://openweathermap.org/api
-    api_key = "f0e8bd26be4ad8375fac4cda3de15cbf"
+    api_key = "**********************" 
     api_url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     response = requests.get(api_url)
